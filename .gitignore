@@ -1,0 +1,16 @@
+# --- não envia dados puros ou processados, mas mantém arquitetura de pastas ---
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# --- Ambiente Python ---
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# --- IDE ---
+.idea/
